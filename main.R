@@ -26,7 +26,7 @@ tool_counts_by_job_shiny_path <- file.path(data_folder, tool_counts_file)
 
 #Pasths for command line
 tool_counts_by_job_file <- file.path(shiny_app_folder, tool_counts_by_job_shiny_path)
-regexs_table <- file.path(shiny_app_folder, tool_counts_by_job_shiny_path)
+regexs_table <- file.path(shiny_app_folder, regexs_shiny_path)
 
 
 #Check if data set exists - rebuild if necessary
